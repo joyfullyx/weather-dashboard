@@ -1,3 +1,23 @@
 * {
-    background: lightgrey;
+    background: white;
+}
+
+h1 {
+    font-weight: bolder;;
+}
+
+#search-bar {
+    border: 1px solid black;
+}
+
+#search-button {
+    background: teal;
+}
+
+#current-weather {
+    visibility: hidden;
+}
+
+#five-day-cards {
+    visibility: hidden;
 }
