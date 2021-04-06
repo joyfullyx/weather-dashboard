@@ -36,7 +36,6 @@ function callApi (city) {
     currentDayIcon.setAttribute('alt', data.weather[0].description);
 
     var currentCityDaily = document.createElement('li')
-    var currentIcon = data.weather;
     currentCityDaily.textContent = data.name + currentDate;
     currentCity.appendChild(currentCityDaily);
 
